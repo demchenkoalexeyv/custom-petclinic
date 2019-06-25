@@ -1,2 +1,4 @@
 com/ademchenko/custompetclinic/controllers/IndexController.class
+com/ademchenko/custompetclinic/controllers/OwnerController.class
 com/ademchenko/custompetclinic/CustomPetclinicApplication.class
+com/ademchenko/custompetclinic/controllers/VetController.class
