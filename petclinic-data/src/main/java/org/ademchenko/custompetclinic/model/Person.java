@@ -1,4 +1,4 @@
-package model;
+package org.ademchenko.custompetclinic.model;
 
 public class Person {
 

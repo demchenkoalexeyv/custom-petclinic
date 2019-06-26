@@ -1,6 +1,6 @@
-package services;
+package org.ademchenko.custompetclinic.services;
 
-import model.Owner;
+import org.ademchenko.custompetclinic.model.Owner;
 
 public interface OwnerService extends CrudService<Owner, Long> {
 

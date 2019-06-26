@@ -1,4 +1,4 @@
-package model;
+package org.ademchenko.custompetclinic.model;
 
 import java.time.LocalDate;
 

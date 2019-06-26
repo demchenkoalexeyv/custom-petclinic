@@ -1,4 +1,4 @@
-package com.ademchenko.custompetclinic;
+package org.ademchenko.custompetclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

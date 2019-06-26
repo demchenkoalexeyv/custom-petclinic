@@ -1,11 +1,11 @@
-package com.ademchenko.custompetclinic.bootstrap;
+package org.ademchenko.custompetclinic.bootstrap;
 
-import model.Owner;
+import org.ademchenko.custompetclinic.services.OwnerService;
+import org.ademchenko.custompetclinic.services.VetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import services.OwnerService;
-import services.VetService;
+import org.ademchenko.custompetclinic.model.Owner;
 
 @Component
 public class DataLoader implements CommandLineRunner {
@@ -34,6 +34,5 @@ public class DataLoader implements CommandLineRunner {
         owner2.setLastName("TestSecond");
 
         System.out.println("ITEMS HAVE BEEN LOADED!");
-
     }
 }

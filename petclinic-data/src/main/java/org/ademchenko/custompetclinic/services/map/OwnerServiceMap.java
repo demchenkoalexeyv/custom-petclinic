@@ -1,8 +1,8 @@
-package services.map;
+package org.ademchenko.custompetclinic.services.map;
 
-import model.Owner;
+import org.ademchenko.custompetclinic.model.Owner;
+import org.ademchenko.custompetclinic.services.OwnerService;
 import org.springframework.stereotype.Service;
-import services.OwnerService;
 
 import java.util.Set;
 

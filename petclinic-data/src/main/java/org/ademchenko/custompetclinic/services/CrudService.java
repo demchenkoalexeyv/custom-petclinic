@@ -1,4 +1,4 @@
-package services;
+package org.ademchenko.custompetclinic.services;
 
 import java.util.Set;
 

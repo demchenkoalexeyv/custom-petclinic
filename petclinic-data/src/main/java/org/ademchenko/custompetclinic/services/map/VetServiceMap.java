@@ -1,8 +1,8 @@
-package services.map;
+package org.ademchenko.custompetclinic.services.map;
 
-import model.Vet;
+import org.ademchenko.custompetclinic.model.Vet;
+import org.ademchenko.custompetclinic.services.VetService;
 import org.springframework.stereotype.Service;
-import services.VetService;
 
 import java.util.Set;
 
