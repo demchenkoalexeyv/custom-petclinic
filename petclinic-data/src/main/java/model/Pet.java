@@ -4,8 +4,10 @@ import java.time.LocalDate;
 
 public class Pet {
 
+    private Long id;
     private PetType petType;
     private Owner owner;
+
     private LocalDate birthday;
 
     public PetType getPetType() {
@@ -30,5 +32,13 @@ public class Pet {
 
     public void setBirthday(LocalDate birthday) {
         this.birthday = birthday;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }

@@ -1,11 +1,13 @@
 model/Pet.class
+services/map/PetServiceMap.class
+services/PetService.class
+model/PetType.class
+services/VetService.class
 services/CrudService.class
 model/Person.class
 model/Vet.class
-services/PetService.class
-model/PetType.class
 services/OwnerService.class
 model/Owner.class
-services/VetService.class
 services/map/OwnerServiceMap.class
+services/map/VetServiceMap.class
 services/map/AbstractMapService.class
