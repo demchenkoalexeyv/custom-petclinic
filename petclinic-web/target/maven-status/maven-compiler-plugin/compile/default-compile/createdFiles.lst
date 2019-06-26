@@ -1,5 +1,5 @@
-com/ademchenko/custompetclinic/controllers/IndexController.class
-com/ademchenko/custompetclinic/controllers/OwnerController.class
-com/ademchenko/custompetclinic/CustomPetclinicApplication.class
-com/ademchenko/custompetclinic/bootstrap/DataLoader.class
-com/ademchenko/custompetclinic/controllers/VetController.class
+org/ademchenko/custompetclinic/controllers/VetController.class
+org/ademchenko/custompetclinic/controllers/IndexController.class
+org/ademchenko/custompetclinic/controllers/OwnerController.class
+org/ademchenko/custompetclinic/bootstrap/DataLoader.class
+org/ademchenko/custompetclinic/CustomPetclinicApplication.class

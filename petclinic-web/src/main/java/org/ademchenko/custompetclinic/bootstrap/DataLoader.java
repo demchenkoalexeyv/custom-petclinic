@@ -13,7 +13,6 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
 
-    @Autowired
     public DataLoader(OwnerService ownerService, VetService vetService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
@@ -32,6 +31,8 @@ public class DataLoader implements CommandLineRunner {
         owner2.setId(2L);
         owner2.setFirstName("TestSecond");
         owner2.setLastName("TestSecond");
+
+        ownerService.save(owner2);
 
         System.out.println("ITEMS HAVE BEEN LOADED!");
     }

@@ -1,5 +1,5 @@
-/Users/ademchenko/Documents/custom-petclinic/petclinic-web/src/main/java/com/ademchenko/custompetclinic/controllers/IndexController.java
-/Users/ademchenko/Documents/custom-petclinic/petclinic-web/src/main/java/com/ademchenko/custompetclinic/controllers/OwnerController.java
-/Users/ademchenko/Documents/custom-petclinic/petclinic-web/src/main/java/com/ademchenko/custompetclinic/CustomPetclinicApplication.java
-/Users/ademchenko/Documents/custom-petclinic/petclinic-web/src/main/java/com/ademchenko/custompetclinic/bootstrap/DataLoader.java
-/Users/ademchenko/Documents/custom-petclinic/petclinic-web/src/main/java/com/ademchenko/custompetclinic/controllers/VetController.java
+/Users/ademchenko/Documents/custom-petclinic/petclinic-web/src/main/java/org/ademchenko/custompetclinic/bootstrap/DataLoader.java
+/Users/ademchenko/Documents/custom-petclinic/petclinic-web/src/main/java/org/ademchenko/custompetclinic/controllers/IndexController.java
+/Users/ademchenko/Documents/custom-petclinic/petclinic-web/src/main/java/org/ademchenko/custompetclinic/controllers/OwnerController.java
+/Users/ademchenko/Documents/custom-petclinic/petclinic-web/src/main/java/org/ademchenko/custompetclinic/CustomPetclinicApplication.java
+/Users/ademchenko/Documents/custom-petclinic/petclinic-web/src/main/java/org/ademchenko/custompetclinic/controllers/VetController.java
