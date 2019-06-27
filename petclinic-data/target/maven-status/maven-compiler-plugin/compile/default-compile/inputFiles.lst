@@ -8,6 +8,7 @@
 /Users/ademchenko/Documents/custom-petclinic/petclinic-data/src/main/java/org/ademchenko/custompetclinic/model/Owner.java
 /Users/ademchenko/Documents/custom-petclinic/petclinic-data/src/main/java/org/ademchenko/custompetclinic/services/map/PetServiceMap.java
 /Users/ademchenko/Documents/custom-petclinic/petclinic-data/src/main/java/org/ademchenko/custompetclinic/services/map/AbstractMapService.java
+/Users/ademchenko/Documents/custom-petclinic/petclinic-data/src/main/java/org/ademchenko/custompetclinic/model/BaseEntity.java
 /Users/ademchenko/Documents/custom-petclinic/petclinic-data/src/main/java/org/ademchenko/custompetclinic/services/CrudService.java
 /Users/ademchenko/Documents/custom-petclinic/petclinic-data/src/main/java/org/ademchenko/custompetclinic/model/PetType.java
 /Users/ademchenko/Documents/custom-petclinic/petclinic-data/src/main/java/org/ademchenko/custompetclinic/services/OwnerService.java
