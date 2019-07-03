@@ -1,31 +1,119 @@
-HELP.md
-/target/
-petclinic-web/target/
-petclinic-data/target/
-!.mvn/wrapper/maven-wrapper.jar
+#==================== Mac OS files
+*.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+.apdisk
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+#==================== Windows OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
 
-### IntelliJ IDEA ###
+#==================== IDEA IntelliJ
 .idea
 *.iws
-*.iml
-*.ipr
+**/*.iml
+/out/
+.idea_modules
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
+#==================== Eclipse files
+.classpath
+.project
+.settings/
+.springBeans
+
+#==================== Package/Output files
+*.class
+*.jar
+*.war
+*.ear
+
+#==================== Log/DB files
+*.log
+*.sql
+*.sqlite
+
+#==================== Packages/Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+#==================== Maven files
+**/target
+*/target/*
+**/target/**
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn
+mvnw
+mvnw.bat
+
+#==================== Play framework
+bin/
+/db
+.eclipse
+/lib/
+/logs/
+/modules
+/project/target
+/target
+tmp/
+test-result
+server.pid
+*.eml
 /dist/
-/nbdist/
-/.nb-gradle/
-/build/
+.cache
 
-### VS Code ###
-.vscode/
+#==================== Scala files
+*.class
+*.log
+.cache
+.history
+.lib/
+dist/*
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.scala_dependencies
+.worksheet
+.ensime_cache/
+.ensime
+
+#==================== Allure files
+/allure-results/
+**/allure-results/
+**/.allure/
