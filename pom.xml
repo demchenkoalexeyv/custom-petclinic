@@ -42,7 +42,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com/demchenkoalexeyv/custom-petclinic.git</developerConnection>
       <tag>HEAD</tag>
-  </scm>
+    </scm>
 
     <repositories>
         <repository>
