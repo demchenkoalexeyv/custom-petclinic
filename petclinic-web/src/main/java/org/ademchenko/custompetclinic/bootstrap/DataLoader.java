@@ -1,11 +1,9 @@
 package org.ademchenko.custompetclinic.bootstrap;
 
-import org.ademchenko.custompetclinic.model.Owner;
-import org.ademchenko.custompetclinic.model.Pet;
-import org.ademchenko.custompetclinic.model.PetType;
-import org.ademchenko.custompetclinic.model.Vet;
+import org.ademchenko.custompetclinic.model.*;
 import org.ademchenko.custompetclinic.services.OwnerService;
 import org.ademchenko.custompetclinic.services.PetTypeService;
+import org.ademchenko.custompetclinic.services.SpecialtyService;
 import org.ademchenko.custompetclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -18,15 +16,26 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
     private final PetTypeService petTypeService;
+    private final SpecialtyService specialtiesService;
 
-    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService) {
+    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialtyService specialtiesService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
         this.petTypeService = petTypeService;
+        this.specialtiesService = specialtiesService;
     }
 
     @Override
     public void run(String... args) throws Exception {
+
+        int count = petTypeService.findAll().size();
+        if(count == 0){
+            loadData();
+        }
+
+    }
+
+    private void loadData(){
         Owner owner1 = new Owner();
         owner1.setFirstName("Joe");
         owner1.setLastName("Doe");
@@ -80,6 +89,19 @@ public class DataLoader implements CommandLineRunner {
         owner2pet.setName("CatTest");
 
         owner2.getPets().add(owner1pet);
+
+        Speciality radiology = new Speciality();
+        radiology.setDescription("Radiology");
+
+        Speciality surgery = new Speciality();
+        surgery.setDescription("Surgery");
+
+        Speciality dentestry = new Speciality();
+        dentestry.setDescription("Dentestry");
+
+        Speciality savedRadiology = specialtiesService.save(radiology);
+        Speciality savedSurgery = specialtiesService.save(surgery);
+        Speciality savedDentestry = specialtiesService.save(dentestry);
 
         System.out.println("ITEMS HAVE BEEN LOADED!");
     }
