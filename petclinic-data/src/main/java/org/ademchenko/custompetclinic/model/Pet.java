@@ -1,13 +1,22 @@
 package org.ademchenko.custompetclinic.model;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 
+@Entity
+@Table(name = "pets")
 public class Pet extends BaseEntity {
 
-    private Long id;
+    @ManyToOne
+    @JoinColumn(name = "type_id")
     private PetType petType;
+    @ManyToOne
+    @JoinColumn(name = "owner_id")
     private Owner owner;
+    @Column(name = "name")
     private String name;
+    @Column(name = "birthday_date")
+    private LocalDate birthday;
 
     public String getName() {
         return name;
@@ -17,7 +26,6 @@ public class Pet extends BaseEntity {
         this.name = name;
     }
 
-    private LocalDate birthday;
 
     public PetType getPetType() {
         return petType;
@@ -43,11 +51,4 @@ public class Pet extends BaseEntity {
         this.birthday = birthday;
     }
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 }
