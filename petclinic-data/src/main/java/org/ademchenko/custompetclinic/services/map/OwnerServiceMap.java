@@ -5,11 +5,13 @@ import org.ademchenko.custompetclinic.model.Pet;
 import org.ademchenko.custompetclinic.services.OwnerService;
 import org.ademchenko.custompetclinic.services.PetService;
 import org.ademchenko.custompetclinic.services.PetTypeService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     private final PetTypeService petTypeService;
