@@ -3,12 +3,12 @@
     <parent>
         <artifactId>custom-petclinic</artifactId>
         <groupId>org.ademchenko</groupId>
-        <version>1.1-SNAPSHOT</version>
+        <version>1.1</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>petclinic-web</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>1.1</version>
 
    <properties>
        <webjars-bootstrap.version>3.3.6</webjars-bootstrap.version>
@@ -21,7 +21,7 @@
         <dependency>
             <artifactId>petclinic-data</artifactId>
             <groupId>org.ademchenko</groupId>
-            <version>0.0.2-SNAPSHOT</version>
+            <version>1.1</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

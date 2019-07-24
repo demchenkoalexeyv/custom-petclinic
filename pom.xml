@@ -14,7 +14,7 @@
     </parent>
     <groupId>org.ademchenko</groupId>
     <artifactId>custom-petclinic</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
     <name>custom-petclinic</name>
     <description>Custom petclinic</description>
 
@@ -41,7 +41,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/demchenkoalexeyv/custom-petclinic.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>1.1</tag>
     </scm>
 
     <repositories>
