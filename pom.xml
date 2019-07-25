@@ -75,4 +75,11 @@
         </pluginRepository>
     </pluginRepositories>
 
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <url>http://35.224.94.229:8081/repository/custom-petclinic/</url>
+        </repository>
+    </distributionManagement>
+
 </project>
