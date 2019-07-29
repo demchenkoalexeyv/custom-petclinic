@@ -2,7 +2,6 @@ package org.ademchenko.custompetclinic.bootstrap;
 
 import org.ademchenko.custompetclinic.model.*;
 import org.ademchenko.custompetclinic.services.*;
-import org.ademchenko.custompetclinic.services.map.VisitMapService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
